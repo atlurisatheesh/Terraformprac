@@ -8,10 +8,10 @@ provider "aws" {
 # }
 
 resource "aws_s3_bucket" "demo" {
-  bucket = "my_first_s3_bucket"
+  bucket = "my_first_s3_bucket_satheesh"
 
     tags = {
-      name         = "My_first_demo_s3"
+      name         = "My_first_demo_s3_sat"
       environment  = "Dev"
     }
 }
