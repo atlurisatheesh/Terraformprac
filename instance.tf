@@ -11,8 +11,8 @@ resource "aws_s3_bucket" "sat" {
   bucket = "my_first_s3_bucket"
 
     tags = {
-      name         = "sat Bucket"
-      environment  = "Dev"
+      Name         = "sat Bucket"
+      Environment  = "Dev"
     }
 }
 
