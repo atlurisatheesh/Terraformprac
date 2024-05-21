@@ -7,12 +7,12 @@ provider "aws" {
   
 # }
 
-resource "aws_s3_bucket" "sat" {
-  bucket = "my_first_s3_bucket"
+resource "aws_s3_bucket" "example" {
+  bucket = "my-tf-test-bucket"
 
-    tags = {
-      Name         = "sat Bucket"
-      Environment  = "Dev"
-    }
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
 }
 
