@@ -7,7 +7,7 @@ provider "aws" {
   
 # }
 
-resource "aws_s3_bucket" "demo" {
+resource "aws_s3_bucket" "sat" {
   bucket = "my_first_s3_bucket_satheesh"
 
     tags = {
